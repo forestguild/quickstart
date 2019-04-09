@@ -1,0 +1,14 @@
+---
+title: Attendance tracker
+layout: core/default
+related: false
+---
+<div class="container">
+    <h1 class="header text-center">Attendance tracker</h1>
+    {% include game/attendance.html report=site.data.attendance_main %}
+</div>
+<style>
+.tablesorter-filter-row {display: none !important;}
+table tr:hover {background: #495057 !important;}
+</style>
+

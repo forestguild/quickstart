@@ -1,0 +1,10 @@
+left: #Left side of top menu
+  - title: Ясный Лес
+    url: https://forestguild.club
+    external: true #add nofollow and 'open in new page' for that link
+  - title: GitHub
+    url: https://github.com/forestguild
+    external: true
+  - title: "Медиа <i class='streaming_now'></i>"
+    url: "#"
+right: [] #Right side of top menu

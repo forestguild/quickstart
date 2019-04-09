@@ -1,0 +1,19 @@
+image: jekyll/jekyll
+
+before_script:
+  - bundle install
+
+pages:
+  stage: deploy
+  script:
+  - bundle exec jekyll updateprogress
+  - bundle exec jekyll attendance
+  - bundle exec jekyll wowaffixes --region eu
+  - bundle exec jekyll wowdaily
+  - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+

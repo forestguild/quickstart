@@ -1,0 +1,3 @@
+- url: "/assets/css/bootstrap.min.css"
+  external: false
+  type: css
